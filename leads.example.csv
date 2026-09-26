@@ -1,0 +1,6 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Demo,+12025550101,Example Studio,America/New_York,yes,no,Requested information
+Casey Demo,+14155550102,Example Labs,America/Los_Angeles,no,no,No consent recorded
+Taylor Demo,+13125550103,Example Shop,America/Chicago,yes,yes,Asked not to be called
+Morgan Demo,+16135550104,Example Office,,yes,no,Timezone inferred from NPA
+Invalid Demo,555-invalid,Example Shop,,yes,no,Invalid number example

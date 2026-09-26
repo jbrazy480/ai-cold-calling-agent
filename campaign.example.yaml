@@ -1,0 +1,23 @@
+agent_name: Alex
+company: Example Workshop
+offer: A short workflow planning meeting
+qualification_questions:
+  - What task would you like to automate?
+  - Who would join a planning meeting?
+objection_notes:
+  - If busy, offer a short meeting at a time they explicitly choose.
+  - If uninterested, accept the answer and end the call.
+voice: marin
+calling_window:
+  start: '09:00'
+  end: '20:00'
+require_consent: true
+max_attempts_per_lead: 2
+seconds_between_calls: 5
+max_concurrent_calls: 1
+booking_webhook_url: null
+ai_disclosure: true
+ai_disclosure_line: 'Hello, I am Alex, an AI voice assistant calling for Example Workshop.'
+voicemail_enabled: false
+voicemail_message: 'This is an AI voice assistant for Example Workshop. No action is needed. Goodbye.'
+max_call_seconds: 300

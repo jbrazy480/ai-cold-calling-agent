@@ -1,0 +1,8 @@
+.env
+.venv
+.git
+__pycache__
+data
+leads.csv
+campaign.yaml
+dnc.txt

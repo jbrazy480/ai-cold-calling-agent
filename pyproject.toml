@@ -1,0 +1,18 @@
+[project]
+name = "ai-cold-calling-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+[tool.setuptools.packages.find]
+include = ["coldcaller*"]
+[tool.setuptools.package-data]
+coldcaller = ["assets/*.json"]
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
