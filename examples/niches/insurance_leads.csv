@@ -1,0 +1,5 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Policyholder,+12025550151,Example Insurance Group,America/New_York,yes,no,Requested an auto quote
+Casey Policyholder,+14155550152,Example Insurance Group,America/Los_Angeles,no,no,No consent recorded yet
+Taylor Policyholder,+13125550153,Example Insurance Group,America/Chicago,yes,yes,Asked not to be called
+Morgan Policyholder,+16135550154,Example Insurance Group,,yes,no,Timezone inferred from area code

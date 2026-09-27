@@ -1,0 +1,5 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Homeowner,+12025550121,Example Home Services,America/New_York,yes,no,Requested a plumbing estimate
+Casey Homeowner,+14155550122,Example Home Services,America/Los_Angeles,no,no,No consent recorded yet
+Taylor Homeowner,+13125550123,Example Home Services,America/Chicago,yes,yes,Asked not to be called
+Morgan Homeowner,+16135550124,Example Home Services,,yes,no,Timezone inferred from area code

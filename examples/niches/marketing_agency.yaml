@@ -1,0 +1,23 @@
+agent_name: Morgan
+company: Example Growth Agency
+offer: A short call about the marketing audit you requested
+qualification_questions:
+  - Which channel would you most like help with, ads, SEO, or social?
+  - What day and time works well for a short call with our team?
+objection_notes:
+  - If busy, offer a shorter follow up window instead of pressing for now.
+  - If uninterested, thank them and end the call.
+voice: marin
+calling_window:
+  start: '09:00'
+  end: '18:00'
+require_consent: true
+max_attempts_per_lead: 2
+seconds_between_calls: 5
+max_concurrent_calls: 1
+booking_webhook_url: null
+ai_disclosure: true
+ai_disclosure_line: 'Hello, I am Morgan, an AI voice assistant calling from Example Growth Agency about the marketing audit you requested.'
+voicemail_enabled: false
+voicemail_message: 'This is an AI voice assistant for Example Growth Agency. No action is needed. Goodbye.'
+max_call_seconds: 300

@@ -29,6 +29,8 @@ def main(argv=None):
         print("OK runtime directory writable")
         missing = settings.live_errors()
         print("Live configuration: " + (", ".join(missing) if missing else "present (not network-verified)"))
+        if missing:
+            print("See docs/GET_YOUR_KEYS.md for how to get each value and which .env variable it goes into.")
         print("Twilio signatures: " + ("enabled" if settings.validate_signatures else "DISABLED for local development"))
         return 1 if args.live and missing else 0
     except (ValueError, OSError) as exc:

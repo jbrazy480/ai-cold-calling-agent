@@ -1,0 +1,5 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Client,+12025550111,Example Med Spa,America/New_York,yes,no,Asked about laser treatment pricing
+Casey Prospect,+14155550112,Example Med Spa,America/Los_Angeles,no,no,No consent recorded yet
+Taylor Client,+13125550113,Example Med Spa,America/Chicago,yes,yes,Asked not to be called
+Morgan Client,+16135550114,Example Med Spa,,yes,no,Timezone inferred from area code

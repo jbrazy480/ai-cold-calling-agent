@@ -1,0 +1,5 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Buyer,+12025550141,Example Realty Group,America/New_York,yes,no,Asked about a downtown listing
+Casey Buyer,+14155550142,Example Realty Group,America/Los_Angeles,no,no,No consent recorded yet
+Taylor Buyer,+13125550143,Example Realty Group,America/Chicago,yes,yes,Asked not to be called
+Morgan Buyer,+16135550144,Example Realty Group,,yes,no,Timezone inferred from area code

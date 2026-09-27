@@ -1,0 +1,5 @@
+name,phone,company,timezone,consent,dnc,notes
+Jamie Owner,+12025550131,Example Retail Co,America/New_York,yes,no,Requested a marketing audit
+Casey Owner,+14155550132,Example Boutique,America/Los_Angeles,no,no,No consent recorded yet
+Taylor Owner,+13125550133,Example Studio,America/Chicago,yes,yes,Asked not to be called
+Morgan Owner,+16135550134,Example Shop,,yes,no,Timezone inferred from area code

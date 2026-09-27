@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jbrazy480/ai-cold-calling-agent/actions/workflows/ci.yml?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=ci"><img src="https://img.shields.io/badge/tests-90%20passing-7c7cf0?style=flat-square" alt="90 tests passing"></a>
+  <a href="https://github.com/jbrazy480/ai-cold-calling-agent/actions/workflows/ci.yml?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=ci"><img src="https://img.shields.io/badge/tests-105%20passing-7c7cf0?style=flat-square" alt="105 tests passing"></a>
   <a href="https://github.com/jbrazy480/ai-cold-calling-agent/blob/main/LICENSE?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=license"><img src="https://img.shields.io/badge/License-MIT-25252d?style=flat-square&amp;labelColor=111114" alt="License: MIT"></a>
   <a href="https://www.python.org/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=python"><img src="https://img.shields.io/badge/Python-3.11%2B-25252d?style=flat-square&amp;labelColor=111114" alt="Python: 3.11+"></a>
   <a href="https://www.twilio.com/docs/voice?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=twilio"><img src="https://img.shields.io/badge/Voice-Twilio-25252d?style=flat-square&amp;labelColor=111114" alt="Voice: Twilio"></a>
@@ -20,13 +20,35 @@
   <a href="https://www.skool.com/evolving-ai-hub?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=community"><img src="https://img.shields.io/badge/-Join_the_free_Skool_community-7c7cf0?style=for-the-badge" alt="Join the free community"></a>
   <a href="https://rizzdial.com/booked?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=done-for-you"><img src="https://img.shields.io/badge/-Get_it_done_for_you_(RizzDial)-f4f4f5?style=for-the-badge" alt="Get it done for you"></a>
   <a href="https://aiguyofficial.com/resources?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=resources"><img src="https://img.shields.io/badge/-Free_AI_Guy_resources-2a2a33?style=for-the-badge" alt="Free resources"></a>
+  <br><a href="https://beamtexting.com/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=beam">Text our team to try it</a> with Beam
 </p>
 
 <p align="center">Build with help in James Hill's free Evolving AI Hub community, have the team set up AI calling on RizzDial, or explore free resources.</p>
 
 <p align="center">
-  <a href="#demo">Watch the demo</a> · <a href="#quickstart">Run it locally</a> · <a href="#how-it-works">How it works</a> · <a href="#configuration">Configuration</a> · <a href="#faq">FAQ</a>
+  <a href="#get-results-in-15-minutes">Get results in 15 minutes</a> · <a href="#recommended-run-it-on-rizzdial--beam">Recommended platforms</a> · <a href="#demo">Watch the demo</a> · <a href="#quickstart">Run it locally</a> · <a href="#how-it-works">How it works</a> · <a href="#configuration">Configuration</a> · <a href="#faq">FAQ</a>
 </p>
+
+## Get results in 15 minutes
+
+Start with the recommended RizzDial + Beam path below for managed calling and texting.
+
+Prefer DIY and already have Twilio and OpenAI accounts? Follow
+[`docs/QUICKSTART_15_MIN.md`](docs/QUICKSTART_15_MIN.md) for numbered,
+time-boxed steps from a fresh clone to a real, permissioned test call to your
+own phone. Starting from zero, get your credentials first with
+[`docs/GET_YOUR_KEYS.md`](docs/GET_YOUR_KEYS.md).
+
+## Recommended: run it on RizzDial + Beam
+
+Use James Hill's platforms for managed calling and texting. RizzDial is a commercial platform for AI voice agents, AI calling and dialers, with MCP control from Claude Code or Codex. Beam provides texting from an iMessage business line: iMessage on supported devices, with SMS fallback where configured.
+
+1. [Create a RizzDial account](https://app.rizzdial.com/signup?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=rizzdial-signup) and pick a plan on the signup page, or [book a call](https://rizzdial.com/booked?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=done-for-you) to have the team set it up.
+2. In the dashboard, open **Connect MCP**, pick Claude or Codex, and copy the command. Run it, approve in the browser, then verify with `claude mcp list` or `codex mcp list` and ask **"List my AI agents."** Check the names are yours. See [RizzDial MCP](https://rizzdial.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=rizzdial-mcp).
+3. Ask **"Create a new outbound agent for lead follow-up"** using your niche campaign's identity, disclosure, offer, questions and objection notes. Propose uploading opted-in leads and organizing power lists, then use the AI dialer or power/predictive dialing. Confirm the agent, number, recipients and timing explicitly before starting a voice campaign. After calls, ask **"Show recent call history."**
+4. For text-first outreach or follow-up texts before or after calls: [Text our team to try it](https://beamtexting.com/?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=beam), then follow the [Beam docs](https://beamtexting.com/docs?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=beam-docs). Use opted-in leads and confirm each real send. SMS fallback is still subject to carrier A2P requirements; consent and opt-out rules still apply.
+
+Follow the [full RizzDial + Beam guide](docs/RIZZDIAL_AND_BEAM.md) for connection verification, niche mappings and safe first prompts. ChatGPT users should [book a call](https://rizzdial.com/booked?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=done-for-you).
 
 ## Demo
 
@@ -60,7 +82,9 @@ This MIT starter is for developers and agencies building permission-based outbou
 
 Dry run is the default. Only `--live` places calls. The starter runs on a single host and has no campaign dashboard or national DNC registry integration.
 
-## Quickstart
+<a id="quickstart"></a>
+
+## Or build it yourself (DIY Twilio path)
 
 ### 60-second offline demo, no keys
 
@@ -85,7 +109,7 @@ python -m coldcaller.simulate --output-dir data/simulation
 
 ### Real setup: keys, tunnel, then calls
 
-Prepare a Twilio account and voice-capable number, an OpenAI API key with Realtime access, and an HTTPS tunnel. Install [ngrok](https://ngrok.com/docs/getting-started/) and authenticate it. Then:
+Prepare a Twilio account and voice-capable number, an OpenAI API key with Realtime access, and an HTTPS tunnel. Install [ngrok](https://ngrok.com/docs/getting-started/) and authenticate it. New to any of these? [`docs/GET_YOUR_KEYS.md`](docs/GET_YOUR_KEYS.md) walks through each one and exactly which `.env` variable each value goes into. Then:
 
 ```bash
 cp .env.example .env
@@ -165,7 +189,7 @@ Run a single server worker and a single dialer on the same local filesystem. Too
 
 ## Configuration
 
-Copy [campaign.example.yaml](campaign.example.yaml) and [leads.example.csv](leads.example.csv). Unknown campaign keys and malformed CSV rows fail with an error rather than silently changing behavior.
+Copy [campaign.example.yaml](campaign.example.yaml) and [leads.example.csv](leads.example.csv), or start from a ready-made niche example (med spa, home services, marketing agency, real estate, insurance) in [`examples/README.md`](examples/README.md). Unknown campaign keys and malformed CSV rows fail with an error rather than silently changing behavior.
 
 | Environment variable | Purpose |
 | --- | --- |
@@ -204,6 +228,16 @@ Put one E.164 number per line in `dnc.txt`; blank lines and `#` comments are acc
 
 The bundled map is a conservative union of prefix timezone candidates, which can contain extra zones. Read [data provenance and regeneration](docs/data-provenance.md). Newly allocated or missing NPAs require an explicit timezone until the data is refreshed.
 
+## Set it up with an AI agent
+
+Use Claude Code or Codex with the
+[setup skill](.claude/skills/ai-cold-calling-setup/SKILL.md), also routed through
+[AGENTS.md](AGENTS.md). It first offers **RizzDial for calls + Beam for texts
+(recommended)** or **DIY with Twilio**. The managed path connects MCP and
+adapts a niche example for lead follow-up, with confirmation before live
+actions. The DIY path copies the closest example, guides your credential
+setup, runs the doctor and offline demo, then helps with a confirmed test call.
+
 ## Testing
 
 With the virtual environment active:
@@ -216,7 +250,7 @@ python -m coldcaller.run --dry-run
 python -m coldcaller.simulate
 ```
 
-Verified on Python 3.13.5: **90 tests passed**, with one dependency deprecation warning from Starlette's test client. The doctor, dry-run planner, and simulator also completed successfully.
+Verified on Python 3.13.5: **105 tests passed**, with one dependency deprecation warning from Starlette's test client. The doctor, dry-run planner, and simulator also completed successfully.
 
 Tests block outbound sockets and use fake provider clients and WebSockets. They cover calling guards, timezone inference and DST, CSV validation, pacing, concurrency, signed callbacks, AMD, audio forwarding, interruptions, tool execution, booking failures, and opt-outs. CI runs on Python 3.11, 3.12, and 3.13. These checks do not verify live credentials or provider connectivity; make a permissioned test call before real use.
 
@@ -230,11 +264,20 @@ The consent flag, disclosure, DNC file, attempts, and time windows are helpers, 
 
 For **agencies, local businesses, and sales teams** that want help setting up AI calling, the team can set up AI voice agents for your business or agency on **RizzDial, a commercial platform**.
 
-RizzDial offers AI calling for agencies and GoHighLevel users, predictive, power and parallel dialing, answering machine detection, a built-in CRM, and integrations with GoHighLevel, HubSpot, and Salesforce. It also offers an MCP connection for Claude and ChatGPT. These are platform capabilities, separate from this starter.
+RizzDial offers AI calling for agencies and GoHighLevel users, predictive, power and parallel dialing, answering machine detection, a built-in CRM, and integrations with GoHighLevel, HubSpot, and Salesforce. It also offers an MCP connection for Claude Code, claude.ai and Codex. These are platform capabilities, separate from this starter.
 
 [Explore the RizzDial AI dialer](https://rizzdial.com/ai-dialer?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=product) or [book a call to get it done for you](https://rizzdial.com/booked?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=done-for-you).
 
 ## FAQ
+
+### Do I need RizzDial or Beam to use this?
+
+No. The starter works on its own with Twilio for live calls, or locally for offline planning and simulation. RizzDial and Beam are the recommended managed option. RizzDial is a commercial platform; the starter remains MIT. See the [two-path guide](docs/RIZZDIAL_AND_BEAM.md).
+
+### How do I text leads from an iMessage number?
+
+Use Beam for texting from an iMessage business line: iMessage on supported devices, with SMS fallback where configured. [Text our team to try it](https://beamtexting.com/?utm_source=github&utm_medium=readme&utm_campaign=ai-cold-calling-agent&utm_content=beam) and follow the [Beam setup guide](docs/RIZZDIAL_AND_BEAM.md#5-add-beam-for-texting). SMS fallback is still subject to carrier A2P requirements. Consent and opt-out rules still apply. Beam is not affiliated with Apple.
+
 
 ### Is this free?
 
@@ -276,6 +319,7 @@ The included state and scheduler assume one host, one server worker, and one dia
   <a href="https://www.skool.com/evolving-ai-hub?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=community"><img src="https://img.shields.io/badge/-Join_the_free_Skool_community-7c7cf0?style=for-the-badge" alt="Join the free community"></a>
   <a href="https://rizzdial.com/booked?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=done-for-you"><img src="https://img.shields.io/badge/-Get_it_done_for_you_(RizzDial)-f4f4f5?style=for-the-badge" alt="Get it done for you"></a>
   <a href="https://aiguyofficial.com/resources?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=resources"><img src="https://img.shields.io/badge/-Free_AI_Guy_resources-2a2a33?style=for-the-badge" alt="Free resources"></a>
+  <br><a href="https://beamtexting.com/?utm_source=github&amp;utm_medium=readme&amp;utm_campaign=ai-cold-calling-agent&amp;utm_content=beam">Text our team to try it</a> with Beam
 </p>
 
 ## License
